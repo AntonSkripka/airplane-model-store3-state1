@@ -5,7 +5,16 @@ import { ThemeProvider } from '@emotion/react'; //! Emotion Theme
 import { theme } from '@/constants'; //! Emotion Theme
 
 
-import App from '@/components/App/App.jsx'
+//! Aбсолютний шлях + Реекспорт
+import {
+  App,
+  AppCounter,
+  // AppFiltration1,
+  // AppFiltration2,
+  // AppFiltration3,
+  // AppFiltration4,
+} from '@/components/App';
+
 
 //todo: var.1  Підключення Normalize (npm i normalize.css)
 // import 'normalize.css';  //! var.1 підключення тільки Normalize
@@ -20,7 +29,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter basename="/airplane-model-store3-state1">
       <ThemeProvider theme={theme}>
-        <App />
+        {/* <App /> */}
+        <AppCounter />
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode >

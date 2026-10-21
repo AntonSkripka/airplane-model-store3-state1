@@ -5,7 +5,7 @@ import planes from '@/json/planes.json'; //! --> ✅✅✅Аліаси імпо�
 
 import './App.css'; //! Ванільний CSS (Vanilla CSS) 
 
-export default function App() {
+export function App() {
     return (
         <Section title="Коллекція літаків">
             <PlanesList items={planes} />
