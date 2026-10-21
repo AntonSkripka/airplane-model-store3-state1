@@ -19,6 +19,5 @@ export const PlanesItemStyled = styled.li`
     background-color: ${getBgColorEmotion};
 
     outline: 1px solid grey;
-    ${(props) => console.log(props)}
 `
 

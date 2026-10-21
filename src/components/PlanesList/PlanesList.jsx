@@ -35,7 +35,6 @@ import css from "./PlanesList.module.css"; //! CSS-модулі
 // }
 
 export default function PlanesList({ items }) {
-    console.log(items);
     return (
         <PlanesListStyled 
         // style={{

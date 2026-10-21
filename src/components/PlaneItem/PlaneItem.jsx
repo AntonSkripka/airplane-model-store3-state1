@@ -80,7 +80,6 @@ export default function PlaneItem({
     startM,
     endM
 }) {
-    console.log(realUrl)
     return (
         <>
             {/* //! Приклад react-icons */}
