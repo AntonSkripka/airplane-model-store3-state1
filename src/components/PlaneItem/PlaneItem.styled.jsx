@@ -40,7 +40,7 @@ export const ImageTitles = styled.p`
         margin-right: 4px;
         width: ${props => props.theme.iconSize.lg}px;
         height: ${props => props.theme.iconSize.lg}px;
-        outline: 1px solid red; 
+        // outline: 1px solid red; 
     }
 
 `
