@@ -9,6 +9,7 @@ import { theme } from '@/constants'; //! Emotion Theme
 import {
   App,
   AppCounter,
+  AppFiltration1,
   // AppFiltration1,
   // AppFiltration2,
   // AppFiltration3,
@@ -30,7 +31,8 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/airplane-model-store3-state1">
       <ThemeProvider theme={theme}>
         {/* <App /> */}
-        <AppCounter />
+        {/* <AppCounter /> */}
+        <AppFiltration1 />
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode >

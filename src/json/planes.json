@@ -1,14 +1,16 @@
 [
   {
-    "id": "id-1",
+    "id": "p-1",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Fairchild_Republic_A-10_Thunderbolt_II",
       "main": "https://upload.wikimedia.org/wikipedia/commons/8/8d/USAF_A-10_Thunderbolt_II_after_taking_on_fuel_over_Afghanistan.jpg",
-      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczNl6R9xpMReuRJfbk63jxGq3iOIXSs8TQTGUeJoXRllsGJCxZHvNSsR1yCtv2fhjgPA2xGkZWJsp3gpiuu2aWLPg0SAH3Bu1IhKNDFIhHEjUf3nztbSzipxSHgaeQlzxHT9L8pXXjdKjfKdVK9Mah1d=w924-h538-s-no-gm?authuser=0",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczNHIIMUhJ_Aaep26EjuzzY6weX6Jg-vGVpL_62tWD9Ue-RxQR77-893d0qfKlohj8kvaSC7L72pMCJw9WkO4y2delL3l58a2oeNHR8cYpCnkxJzryZ9USP7bZN_F5cVNe-7UmhmFC_xX2_SaEZhLMud=w1359-h1437-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store3-state1/images/planes-actual/a-10.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/a-10.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/a-10.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/a-10.jpg"
+        "/airplane-model-store3-state1/images/planes-actual/a-10-dark-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/a-10-green-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/a-10-green-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/a-10-green+dark-comp-4.jpg"
       ]
     },
     "name": {
@@ -29,15 +31,17 @@
     }
   },
   {
-    "id": "id-2",
+    "id": "p-2",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Northrop_B-2_Spirit",
       "main": "https://upload.wikimedia.org/wikipedia/commons/3/3f/B-2_first_flight_071201-F-9999J-034.jpg",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczPlOJa_nz3Ch08sMU0GWfU3ZsRJsitvgpvb1tBucxFF2I7J89X1JhWGP-7BwF_LdZHkk2kbWWx8msIXr4YId3DiOkbmnLI91WJik0QPR5VmE0QoV1sY8HrOQztzLhCxVro3bA9kO-PGzA0Vt0iOUHIZ=w848-h847-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store3-state1/images/planes-actual/b-2-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/b-2-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/b-2-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/b-2-comp.jpg"
+        "/airplane-model-store3-state1/images/planes-actual/b-2-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/b-2-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/b-2-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/b-2-comp-4.jpg"
       ]
     },
     "name": {
@@ -58,15 +62,17 @@
     }
   },
   {
-    "id": "id-3",
+    "id": "p-3",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/F-22_Raptor",
       "main": "https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczOMavfHaYVT4eTIeMRu7Nf0sCXN6W5n2fjjpna_xFwpNWe2F4smHwIEGN_HY2aDibjQrABBD7JhPCvrZHtfN2jOP4ilY-rD94SLpTB62YeBBOLrVzKEQ7y-ck57_vHkvteGiAG23FrQYXA5mQeriSIx=w916-h907-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store3-state1/images/planes-actual/f-22-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/f-22-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/f-22-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/f-22-comp.jpg"
+        "/airplane-model-store3-state1/images/planes-actual/f-22-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-22-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-22-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-22-comp-4.jpg"
       ]
     },
     "name": {
@@ -87,16 +93,18 @@
     }
   },
   {
-    "id": "id-4",
+    "id": "p-4",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Shenyang_J-35",
       "main": "https://focus.ua/static/storage/thumbs/1840x930/e/b5/eibsv6-3c005ff49a942c5f05fa898e73848b5e.webp?v=5162_1",
       "main2": "https://defencesecurityasia.com/wp-content/uploads/2026/01/SEQUVKBGWVNCVB7ANIVMEZBJK4-scaled.avif",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczOVEGi_WSDdUwM00yPsF3JjXpGDM-uvpYGuawEYe4qIjypQQQGfL59PeFx7qaLoGmqhIviddOyCNVKtpu5ZGOex5L6x_J9DCaj1BCUGEDG_gEATmjvd0_FoI_W5I8c3m8a5Dt5YwctxsslH7McTK-eF=w1351-h987-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store3-state1/images/planes-actual/j-35-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/j-35-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/j-35-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/j-35-comp.jpg"
+        "/airplane-model-store3-state1/images/planes-actual/j-35-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/j-35-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/j-35-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/j-35-comp-4.jpg"
       ]
     },
     "name": {
@@ -117,15 +125,17 @@
     }
   },
   {
-    "id": "id-5",
+    "id": "p-5",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/%D0%A1%D1%83-25",
       "main": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sukhoi_Su-25SM_%C2%ABRoman_Filipov%C2%BB_05.jpg",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczO8jD-mHi9beAi08EtchDq7UWaoJbXCMaGZ6OHulXsFEZLP-_IRMaEtDuFZu4c1rmU0TiF_DjlfQMOK-Ac6uhlgRe8qe5LYmE_2njF4NFyZ7WwyFbvb6KXHo5NxAZguxz83Q76r7Ebk0XHpCoFAOfFT=w1298-h935-s-no-gm?authuser=0",
       "actual": [
         "/airplane-model-store3-state1/images/planes-actual/su-25rus-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/su-25ukr-comp-2.jpg",
         "/airplane-model-store3-state1/images/planes-actual/su-25ukr-comp-3.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/su-25ukr-comp-4.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/su-25ukr-comp-5.jpg"
+        "/airplane-model-store3-state1/images/planes-actual/su-25rus+su-25ukr_comp-4.jpg"
       ]
     },
     "name": {
@@ -146,15 +156,17 @@
     }
   },
   {
-    "id": "id-6",
+    "id": "p-6",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Messerschmitt_Bf_109",
       "main": "https://upload.wikimedia.org/wikipedia/commons/9/95/Messerschmitt_Bf_109E_at_Thunder_Over_Michigan.jpg",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczMV6TUjxMPveNkolytwkxSKtE6qC3Vo54X4yRohfYHZ_Zm6QpuklhxynEHY6vgcVvCYOmIiG9TzJ06qpdNgQWIjSFhcaPytrUOOR02DveqsK9N_jyqHsekbyOif_17x6Dj33Ymr_vN4-sMj1HHZ6oz8=w1364-h932-s-no-gm?authuser=0",
       "actual": [
-        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp.jpg",
-        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp.jpg"
+        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/bf-109-yellow-comp-4.jpg"
       ]
     },
     "name": {
@@ -175,8 +187,10 @@
     }
   },
   {
-    "id": "id-7",
+    "id": "p-7",
+    "aircraftType": "plane",
     "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Chance_Vought_F4U_Corsair",
       "main": "https://upload.wikimedia.org/wikipedia/commons/6/66/Vought_F4U_Corsair_%28USMC%29.jpg",
       "promotional": "https://lh3.googleusercontent.com/pw/AP1GczNC2YhrkKpLYDtw-WUt3DukIrTjJG9nPZk4UsMWXwcvdzPnqPOX7jxgFwVqH8yd2VWeR0t-XmnI9eH0-1-TtsFHrdqxvi66gc04vajWr7E3rwmKEt9iVPuJtxEoOoBXxW9G_zFH6CBivik0nkhJ0PyE=w1395-h1133-s-no-gm?authuser=0",
       "actual": [
@@ -201,6 +215,223 @@
     "manufacturing": {
       "start": "1940-01-01T00:00:00",
       "end": "1952-01-01T00:00:00"
+    }
+  },
+  {
+    "id": "p-8",
+    "aircraftType": "plane",
+    "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Grumman_F-14_Tomcat",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/f/f7/US_Navy_051105-F-5480T-005_An_F-14D_Tomcat_conducts_a_mission_over_the_Persian_Gulf-region.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczNyRJlWO2ki4tSpbCXhowMOcD6DCnUOqdDbrrMuObFy8W7mv6uKdL8K_HUO2N7OlNQaN2U5BDQTuatfMaaVjuhD9s9rJYSCq_tZQAxaQ-ydFSJ8EwF8rPsFPoZvJXyI60CKHc_YSo4y17xUPf0yiSr_=w913-h847-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/f-14-white-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-14-black-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-14-white+black-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-14-white-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "F-14",
+      "full": "Grumman F-14 Tomcat",
+      "nickname": "Котяра, Ловелас («Tomcat»)"
+    },
+    "info": {
+      "year": 1970,
+      "country": "США",
+      "type": "Палубний винищувач-перехоплювач",
+      "price": "$60–70 млн",
+      "description": "Двомісний реактивний палубний винищувач-перехоплювач четвертого покоління з крилом змінної стріловидності, здатний завоювати повну повітряну перевагу в безпосередній близькості від авіанесучих кораблів, з яких передбачалося використовувати ці літаки, а також повинен був бути здатний завдавати ударів по тактичним наземним і надводним цілям"
+    },
+    "manufacturing": {
+      "start": "1974-01-01T00:00:00",
+      "end": "1992-01-01T00:00:00"
+    }
+  },
+  {
+    "id": "p-9",
+    "aircraftType": "plane",
+    "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Chengdu_J-20",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/a/a2/J-20_at_Airshow_China_2016.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczOTj8ZD9RuRaphQgMDL1v_TlbRuOvT4XQ4pjOtVNkYlJ5UOMLlgS2ICFEuqTO0GCdstNp2fc8Afqji071tQzaHeqhw43MgrFt3tqqcpUHvPm9Mu6GX8uowuspCGXYyHAHl84SXBllsrKX-mWmcXNEkG=w1345-h1007-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/j-20-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/j-20-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/j-20-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/j-20-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "J-20",
+      "full": "Chengdu J-20",
+      "nickname": "Чорний орел"
+    },
+    "info": {
+      "year": 2011,
+      "country": "Китай",
+      "type": "Важкий винищувач четвертого (п'ятого) покоління",
+      "price": "$100–120 млн",
+      "description": "Вважається одним із ключових досягнень у сфері військової авіації для Китаю і є першим китайським винищувачем п'ятого покоління, призначеним для виконання ролі багатофункціонального винищувача"
+    },
+    "manufacturing": {
+      "start": "2011-01-01T00:00:00",
+      "end": "now"
+    }
+  },
+  {
+    "id": "p-10",
+    "aircraftType": "plane",
+    "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%93-15",
+      "main": "https://armedman.ru/wp-content/uploads/2015/09/mig-15-6.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczNLy69q5N36C6lbTE48x-oGU1MYHstJsEJdEsv-sHAhcLywlXtCbZ2_5IJXYXKeL6Yquom5hXyT0chFc02LREQeLe6g32eN0YnHJif-SOv3_Oi8WilcKWxWKu1toPnmLd0ydSQVwllAkKWA6TsuiQJi=w1275-h912-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/mig-15-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/mig-15-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/mig-15-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/mig-15-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "MiG-15",
+      "full": "МиГ-15",
+      "nickname": "Фагот («Fagot»), Карлик («Midget»)"
+    },
+    "info": {
+      "year": 1947,
+      "country": "СРСР",
+      "type": "Реактивний винищувач",
+      "price": "$100000–300000",
+      "description": "Найбільш масовий реактивний бойовий літак в історії авіації, що складався на озброєнні багатьох країн світу, що став одним з основних винищувачів, що брали участь у Корейській війні, застосовувався в перших арабо-ізраїльських війнах, і в численних менш значних військових конфліктах по всьому світу"
+    },
+    "manufacturing": {
+      "start": "1947-01-01T00:00:00",
+      "end": "1959-01-01T00:00:00"
+    }
+  },
+  {
+    "id": "p-11",
+    "aircraftType": "biplane",
+    "url": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Vought_O2U_Corsair",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Vought_O2U.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczNnDp7_Y7veh7R_Dr133NFJTTOtSRlbv2W4fk2iYsYEIbA5r8hb3orn6Uqkx7dn6DAU4CD-8ZyvQQqrrcwNZ4fskYW3IMcU_unQoPHAmZXjt4TBqVSb1LRl5LrKHnJJ8HtMDtWmVrpS9qoeVlTi2Lbw=w1380-h1321-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/o2u-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/o2u-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/o2u-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/o2u-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "O2U",
+      "full": "Vought O2U Corsair",
+      "nickname": "Воут Корсар («Vought Corsair»), Ленин («列宁号»)"
+    },
+    "info": {
+      "year": 1926,
+      "country": "США",
+      "type": "Біплан-розвідник, корабельний розвідник, легкий ударний літак, зв'язковий та навчальний літак, патрульний літак",
+      "price": "$15000 — 16000",
+      "description": "Палубний біплан-розвідник та літак спостереження 1920-х років. В 1930 став першим літаком Червоної армії Китаю з назвою «Ленін» і використовувався для розвідки, розкидання листівок і бомбардувань урядових військ. Одним із найвідоміших епізодів стало бомбардування позицій Гоміньдану в Хуан'яні в 1931 році"
+    },
+    "manufacturing": {
+      "start": "1927-01-01T00:00:00",
+      "end": "1930-01-01T00:00:00"
+    }
+  },
+  {
+    "id": "p-12",
+    "aircraftType": "plane",
+    "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/F-15C_%D0%BD%D0%B0%D0%B4_%D0%A2%D0%B8%D1%85%D0%B8%D0%BC_%D0%BE%D0%BA%D0%B5%D0%B0%D0%BD%D0%BE%D0%BC.jpg/3840px-F-15C_%D0%BD%D0%B0%D0%B4_%D0%A2%D0%B8%D1%85%D0%B8%D0%BC_%D0%BE%D0%BA%D0%B5%D0%B0%D0%BD%D0%BE%D0%BC.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczP566NGFuHUUjOTI-CkAqEMbLTBrN7QCQpFuy1UjgtbEtKgMXEpmL_6mt30qm5nTGszZRa6e5RkgsYA9BfPJCOqHwP7KRigLsk58gdmdsBa84o2zrnruIJXpUrJcgqaebOa7oT-zz5DK_x7sPpHFLSy=w1400-h1002-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/f-15-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-15-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-15-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/f-15-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "F-15",
+      "full": "McDonnell Douglas F-15 Eagle",
+      "nickname": "Орел («Eagle»)"
+    },
+    "info": {
+      "year": 1972,
+      "country": "США",
+      "type": "Винищувач четвертого покоління",
+      "price": "$90–117 млн",
+      "description": "Всепогодний тактичний винищувач четвертого покоління. Призначений для завоювання переваги в повітрі. Відрізняється високою маневреністю, швидкістю та потужним озброєнням для повітряного бою. Активно використовувався в модифікаціях Strike Eagle (ударний) та Silent Eagle (малопомітний)"
+    },
+    "manufacturing": {
+      "start": "1976-01-01T00:00:00",
+      "end": "now"
+    }
+  },
+  {
+    "id": "p-13",
+    "aircraftType": "plane",
+    "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Curtiss_P-40",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Curtiss_XP-40_in_flight%2C_circa_in_1939.jpg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczPVUh2QNTe-S7ZnF0ZhsLUFOoiALMpgHzF114m8Dv_V8iLTmTvEZQdPegeDII1QkIcJP-h1z_krpPfhDFawnK3vKsQ8NiAC8qcvCBZcDpWO-xJAnZHDOLX5wDC-haY__w4QWtqjifph2bxJVWD57RUe=w1358-h907-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/p-40-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/p-40-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/p-40-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/p-40-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "P-40",
+      "full": "Curtiss P-40 Warhawk",
+      "nickname": "Уорхок (Бойовий яструб) («Warhawk»)"
+    },
+    "info": {
+      "year": 1936,
+      "country": "США",
+      "type": "Винищувач, штурмовик",
+      "price": "$44892 ($650000)",
+      "description": "Використовувався для знищення наземних цілей, колон техніки, складів та аеродромів. Мав дуже міцну конструкцію та рідинне охолодження, захищене бронею. Міг витримувати сильний вогонь із землі та повертатися на базу з величезними пробоїнами, але поступався німецьким Messerschmitt Bf-109 та японським Zero у маневреності чи скоропідйомності на великих висотах"
+    },
+    "manufacturing": {
+      "start": "1939-01-01T00:00:00",
+      "end": "1944-01-01T00:00:00"
+    }
+  },
+  {
+    "id": "p-14",
+    "aircraftType": "biplane",
+    "url": {
+      "wikipedia": "https://ru.wikipedia.org/wiki/Curtiss_F11C_Goshawk",
+      "main": "https://upload.wikimedia.org/wikipedia/commons/3/30/F11C_Goshawk.jpeg",
+      "promotional": "https://lh3.googleusercontent.com/pw/AP1GczPiHB8bunSjpeD-To435tXpxzeGnIKElBD3uWEF2OoyXaCeUjNmwtk83q9ZitWup-0GN4ToisuG88n5eUNPiHfEPgh4ZHxedsE12VtFo_GK95cyaRA_W5vBDyCHbnzkyzyzfNJD_VGhDk8hBPegEcPF=w1336-h939-s-no-gm?authuser=0",
+      "actual": [
+        "/airplane-model-store3-state1/images/planes-actual/hawk-3-comp-1.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/hawk-3-comp-2.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/hawk-3-comp-3.jpg",
+        "/airplane-model-store3-state1/images/planes-actual/hawk-3-comp-4.jpg"
+      ]
+    },
+    "name": {
+      "brief": "Hawk III",
+      "full": "Curtiss F11C Goshawk, Hawk III, BF2C-1",
+      "nickname": "Госхок (Яструб-тетерів'ятник) («Goshawk»)"
+    },
+    "info": {
+      "year": 1933,
+      "country": "США",
+      "type": "Одномісний біплан-винищувач, бомбардувальник",
+      "price": "$34000 — 37000",
+      "description": "Використовувався як швидкісний винищувач, а також для завдання ударів по наземних і морських цілях. Виконував функції пікіруючого бомбардувальника. Міг нести одну 227-кг (500-фунтову) бомбу на підфюзеляжному вузлі або чотири 45-кг (100-фунтові) бомби під крилами. Мав шасі, що забиралися (вперше для винищувачів Curtiss), що дозволило значно збільшити максимальну швидкість на 27,5 км/год більше. Модель Hawk III була спеціально адаптована для продажу в інші країни (зокрема, Китай, Таїланд та Аргентину), де вона стала основою винищувальної авіації в передвоєнний період"
+    },
+    "manufacturing": {
+      "start": "1934-01-01T00:00:00",
+      "end": "1936-01-01T00:00:00"
     }
   }
 ]
