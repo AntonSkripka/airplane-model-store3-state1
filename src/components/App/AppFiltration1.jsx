@@ -3,7 +3,8 @@ import Section from '@/components/Section/Section.jsx';
 import PlanesList from "@/components/PlanesList/PlanesList"
 import planes from '@/json/planes.json';
 import helicopters from '@/json/helicopters.json';
-import css from "./AppFiltration.module.css"
+import css from "./AppFiltration.module.css";
+import { Filter } from '../Filter/Filter';
 
 
 //! Звичайний компонент
@@ -57,7 +58,7 @@ export class AppFiltration1 extends Component {
 
         return (
             <>
-                <div className={css.filterBox}>
+                {/* <div className={css.filterBox}>
                     <button
                         className={css.buttonAllFiltration}
                         type="button"
@@ -81,7 +82,12 @@ export class AppFiltration1 extends Component {
                     >
                         Вертольоти
                     </button>
-                </div>
+                </div> */}
+                <Filter
+                    onSetAll={this.setAll}
+                    onSetPlanes={this.setPlanes}
+                    onSetHelicopters={this.setHelicopters}
+                />
 
                 {/* //! Літаки */}
                 <Section
