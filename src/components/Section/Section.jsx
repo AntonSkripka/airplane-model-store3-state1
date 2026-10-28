@@ -1,7 +1,7 @@
 import css from "./Section.module.css"; //! CSS-модулі
 import { TitleLugrasimoBold, SectionGlobal } from './Section.styled.jsx'; //! Emotion
 
-export default function Section({ children, title, isOn, color }) {
+export default function Section({ children, title, isOn=true, color }) {
   return (
     <>
     {isOn && 

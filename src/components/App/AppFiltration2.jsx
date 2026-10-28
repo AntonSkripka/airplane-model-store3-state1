@@ -79,7 +79,6 @@ export class AppFiltration2 extends Component {
             backgroundColor 
         } = this.state;
         console.log("-------------------- props & state --------------------");
-        // console.log("ℹ️initialValue:", initialValue);
         console.log("🔢isPlanesOn, isHelicoptersOn, isAllOn:", isPlanesOn, isHelicoptersOn, isAllOn);
         console.log("🔢background:", backgroundColor);
         console.log("-------------------------------------------------------");

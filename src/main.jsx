@@ -11,7 +11,7 @@ import {
   AppCounter,
   AppFiltration1,
   AppFiltration2,
-  // AppFiltration3,
+  AppFiltration3,
   // AppFiltration4,
 } from '@/components/App';
 
@@ -32,7 +32,8 @@ createRoot(document.getElementById('root')).render(
         {/* <App /> */}
         {/* <AppCounter /> */}
         {/* <AppFiltration1 /> */}
-        <AppFiltration2 />
+        {/* <AppFiltration2 /> */}
+        <AppFiltration3 />
       </ThemeProvider>
     </BrowserRouter>
   </StrictMode >
