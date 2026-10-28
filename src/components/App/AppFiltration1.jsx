@@ -29,7 +29,8 @@ export class AppFiltration1 extends Component {
     state = {
         // filter: '', // 'all', 'planes'  'helicopters'
         isPlanesOn: false,
-        isHelicoptersOn: false
+        isHelicoptersOn: false,
+        backgroundColor: "white"
     };
 
     handleFilter = (filterType) => {
@@ -38,19 +39,31 @@ export class AppFiltration1 extends Component {
 
     setAll = () => {
         console.log("Кнопка All")
-        this.setState({ isPlanesOn: true, isHelicoptersOn: true });
+        this.setState({ 
+            isPlanesOn: true, 
+            isHelicoptersOn: true, 
+            backgroundColor: "green" 
+        });
     }
     setPlanes = () => {
         console.log("Кнопка Planes")
-        this.setState({ isPlanesOn: true, isHelicoptersOn: false });
+        this.setState({ 
+            isPlanesOn: true, 
+            isHelicoptersOn: false,
+            backgroundColor: "yellow"
+        });
     }
     setHelicopters = () => {
         console.log("Кнопка helicopters")
-        this.setState({ isPlanesOn: false, isHelicoptersOn: true });
+        this.setState({ 
+            isPlanesOn: false, 
+            isHelicoptersOn: true,
+            backgroundColor: "lightblue" 
+        });
     }
 
     render() {
-        const { isPlanesOn, isHelicoptersOn } = this.state;
+        const { isPlanesOn, isHelicoptersOn, backgroundColor } = this.state;
         console.log("-------------------- props & state --------------------");
         // console.log("ℹ️initialValue:", initialValue);
         console.log("🔢isPlanesOn, isHelicoptersOn:", isPlanesOn, isHelicoptersOn);
@@ -93,6 +106,7 @@ export class AppFiltration1 extends Component {
                 <Section
                     isOn={isPlanesOn}
                     title="Магазин моделей літаків"
+                    color={backgroundColor}
                 >
                     <PlanesList items={planes} />
                 </Section>
@@ -101,6 +115,7 @@ export class AppFiltration1 extends Component {
                 <Section
                     isOn={isHelicoptersOn}
                     title="Магазин моделей вертольотів"
+                    color={backgroundColor}
                 >
                     <PlanesList items={helicopters} />
                 </Section>
