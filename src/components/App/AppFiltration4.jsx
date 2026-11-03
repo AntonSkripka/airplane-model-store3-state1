@@ -18,7 +18,8 @@ export class AppFiltration4 extends Component {
         // isPlanesOn: false,
         // isHelicoptersOn: false,
         // isAllOn: false,
-        backgroundColor: "green"
+        backgroundColor: "green",
+        activeButton: "all"
     };
 
     setAll = () => {
@@ -26,7 +27,8 @@ export class AppFiltration4 extends Component {
         this.setState({ 
             aircraftsArray: aircrafts,
             title: "Магазин літальних апаратів",
-            backgroundColor: "green" 
+            backgroundColor: "green",
+            activeButton: "all" 
         });
     }
     setPlanes = () => {
@@ -34,7 +36,8 @@ export class AppFiltration4 extends Component {
         this.setState({ 
             aircraftsArray: aircrafts.filter(item => item.aircraftType === "plane"),
             title: "Магазин літаків",
-            backgroundColor: "yellow"
+            backgroundColor: "yellow",
+            activeButton: "planes"
         });
     }
     setBiplanes = () => {
@@ -42,16 +45,18 @@ export class AppFiltration4 extends Component {
         this.setState({ 
             aircraftsArray: aircrafts.filter(item => item.aircraftType === "biplane"),
             title: "Магазин біпланів",
-            backgroundColor: "pink" 
+            backgroundColor: "pink",
+            activeButton: "biplanes" 
         });
     }
-    
+
     setHelicopters = () => {
         console.log("Кнопка helicopters")
         this.setState({ 
             aircraftsArray: aircrafts.filter(item => item.aircraftType === "helicopter"),
             title: "Магазин гелікоптерів",
-            backgroundColor: "lightblue" 
+            backgroundColor: "lightblue",
+            activeButton: "helicopters" 
         });
     }
 
@@ -62,7 +67,8 @@ export class AppFiltration4 extends Component {
             // isPlanesOn, 
             // isHelicoptersOn, 
             // isAllOn, 
-            backgroundColor 
+            backgroundColor,
+            activeButton
         } = this.state;
         console.log("-------------------- props & state --------------------");
         console.log("🔢aircrafts:", aircrafts);
@@ -73,6 +79,7 @@ export class AppFiltration4 extends Component {
         return (
             <>
                 <Filter
+                    activeButton={activeButton}
                     onSetAll={this.setAll}
                     onSetPlanes={this.setPlanes}
                     onSetHelicopters={this.setHelicopters}
