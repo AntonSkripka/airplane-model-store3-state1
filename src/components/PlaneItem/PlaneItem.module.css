@@ -5,7 +5,7 @@
   font-size: 32px;
   text-align: center;
   border-radius: 8px;
-  background-color: yellow;
+  background-color: grey;
   color: blue;
 }
 
@@ -59,4 +59,19 @@
 .icon {
     margin-bottom: -8px;
     color: #9b25fc;
+}
+
+.backgroundPlane {
+  composes: planesTitle;
+  background-color: yellow;
+}
+
+.backgroundBiplane {
+  composes: planesTitle;
+  background-color: pink;
+}
+
+.backgroundHelicopter {
+  composes: planesTitle;
+  background-color: lightblue;
 }

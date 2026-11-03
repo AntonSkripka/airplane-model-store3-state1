@@ -25,7 +25,7 @@ import { iconSize } from '@/constants/iconSize.js';
 // console.log(getBgColorVanillaCSS(1999))
 // console.log(getBgColorCSSModule(1999))
 // console.log(getBgColorBuiltInStyles(1999))
-import { getManufacturingYears } from '@/utils';
+import { getManufacturingYears, getBackgroundCardTitleColor } from '@/utils';
 // iconSize.md = 56;
 import css from "./PlaneItem.module.css"; //! CSS-модулі
 import {
@@ -76,6 +76,7 @@ export default function PlaneItem({
     type,
     price,
     description,
+    aircraftType,
 
     startM,
     endM
@@ -84,7 +85,7 @@ export default function PlaneItem({
         <>
             {/* //! Приклад react-icons */}
 
-            <PlanesTitleStyled
+            <h3
             // style={{
             //     marginBottom: 12,
             //     padding: "12px 16px",
@@ -94,10 +95,10 @@ export default function PlaneItem({
             //     backgroundColor: "yellow",
             //     color: "blue",
             // }}
-            // className={css.planesTitle}
+            className={css[getBackgroundCardTitleColor(aircraftType)]}
             >
                 {title}
-            </PlanesTitleStyled>
+            </h3>
             <img src={url} alt={fullTitle} onError={(e) => onErrorImg(e)} />
             <TextFieldStyled><FcTrademark size={iconSize.md} className={css.icon} />Повна назва: <TextFieldValueStyled>{fullTitle}</TextFieldValueStyled></TextFieldStyled>
             <TextFieldStyled><GiArmoredBoomerang size={iconSize.md} className={css.icon} />Тип: <TextFieldValueStyled><GiCommercialAirplane />{type}</TextFieldValueStyled></TextFieldStyled>
