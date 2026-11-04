@@ -138,7 +138,7 @@ export default function PlaneItem({
             </div> */}
             {/* <br /> */}
             {/* //? Модальні вікна для блока зображень з Yet Another React Lightbox */}
-            <ActualImageModal images={realUrl} briefName={fullTitle} error={onErrorImg}/>
+            <ActualImageModal images={realUrl} briefName={fullTitle} error={onErrorImg} description={description}/>
             <ItemButtonStyled
                 className={css.itemButton}
                 type="button">Додати до кошику
