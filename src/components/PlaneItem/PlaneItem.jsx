@@ -16,7 +16,7 @@ import { FcTrademark } from "react-icons/fc";
 //? description - <AiOutlineInfoCircle /> - info - Опис
 //? <GiAirplaneDeparture /> - Рекламна модель
 //? <CiAirportSign1 /> - Реальна модель
-
+import { ActualImageModal } from '@/components/ActualImageModal/ActualImageModal';
 import defaultImage from "./default.png" //! Дефолтне зображення
 import { iconSize } from '@/constants/iconSize.js';
 //! Реекспорт - декілька імпортів з однієї папки
@@ -86,16 +86,16 @@ export default function PlaneItem({
             {/* //! Приклад react-icons */}
 
             <h3
-            // style={{
-            //     marginBottom: 12,
-            //     padding: "12px 16px",
-            //     fontSize: 32,
-            //     textAlign: 'center',
-            //     borderRadius: 8,
-            //     backgroundColor: "yellow",
-            //     color: "blue",
-            // }}
-            className={css[getBackgroundCardTitleColor(aircraftType)]}
+                // style={{
+                //     marginBottom: 12,
+                //     padding: "12px 16px",
+                //     fontSize: 32,
+                //     textAlign: 'center',
+                //     borderRadius: 8,
+                //     backgroundColor: "yellow",
+                //     color: "blue",
+                // }}
+                className={css[getBackgroundCardTitleColor(aircraftType)]}
             >
                 {title}
             </h3>
@@ -117,19 +117,28 @@ export default function PlaneItem({
             <img src={promotialUrl} alt={fullTitle} width="600" onError={(e) => onErrorImg(e)} />
             <ImageTitles>
                 <CiAirportSign1
-                    // size={iconSize.md}
+                // size={iconSize.md}
                 />Реальна модель:
             </ImageTitles>
-            <ActualImageBox
-            // className={css.actualImageBox}
+            {/* //? Блок зображень без модальних вікон */}
+            {/* <div
+                className={css.actualImageBox}
             >
                 {realUrl.map((img, index) => {
-                    return (<ActualImageStyled key={index}
-                        src={img} alt={fullTitle} width="300" onError={(e) => onErrorImg(e)}
-                    />)
+                    return (
+                        <img
+                            key={index}
+                            className={css.actualImage}
+                            src={img}
+                            alt={fullTitle}
+                            width="300"
+                            onError={(e) => onErrorImg(e)}
+                        />)
                 })}
-            </ActualImageBox>
-            <br />
+            </div> */}
+            {/* <br /> */}
+            {/* //? Модальні вікна для блока зображень з Yet Another React Lightbox */}
+            <ActualImageModal images={realUrl} briefName={fullTitle} error={onErrorImg}/>
             <ItemButtonStyled
                 className={css.itemButton}
                 type="button">Додати до кошику
